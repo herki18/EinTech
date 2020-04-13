@@ -26,7 +26,7 @@ bld/
 Logging/
 
 # Published files
-dist/
+distribute/
 
 # Tools for building
 tools/

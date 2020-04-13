@@ -4,7 +4,7 @@ var configuration = Argument("Configuration", "Release");
 
 Information($"Running target {target} in configuration {configuration}");
 
-var distDirectory = Directory("./dist");
+var distDirectory = Directory("./distribute");
 
 // Deletes the contents of the Artifacts folder if it contains anything from a previous build.
 Task("Clean")
